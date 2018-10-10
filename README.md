@@ -14,6 +14,10 @@ In this lab you work with the SharePoint Framework as an end user and then get y
 * [Setup your local SPFx Developer Environment](./Demos/02-setup-env)
 * [Interact with SPFx Client-Side Web Parts in Modern Sites](./Demos/03-webpart)
 
+## Watch the Module
+
+This module has been recorded and is available in the Office Development YouTube channel: [SharePoint Framework Training - Getting Started with the SharePoint Framework](https://www.youtube.com/watch?v=_Pt5cnU4MpU&list=PLR9nK3mnD-OV-RPXQ3Lco845qoEy7VJoc)
+
 ## Contributors
 
 |        Roles         |                        Author(s)                        |

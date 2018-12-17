@@ -38,7 +38,7 @@ The tools used in compiling, debugging and packaging SharePoint Framework projec
 
     ![Screenshot of the Previous Releases page](../../Images/ex02-installnode-03.png)
 
-1. Select the appropriate installer or binary for the platorm you are using. The installers and binaries for Windows and macOS are located near the bottom of the page.
+1. Select the appropriate installer or binary for the platorm you are using.
 
     ![Screenshot of the Node.js 8.x page](../../Images/ex02-installnode-04.png)
 

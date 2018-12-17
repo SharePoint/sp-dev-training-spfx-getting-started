@@ -12,7 +12,7 @@ The remainder of this lab & most examples you find from Microsoft use [Visual St
 
 The tools used in compiling, debugging and packaging SharePoint Framework projects are built using Node.js, a runtime that enables JavaScript to run locally vs. a browser. Therefore the first step is to install the runtime, Node.js, before installing the required tools.
 
-> Node.js is available in two different releases: the *long term support* release (aka: LTS) is the most stable version that is recommended for most users while the *current* version contains the latest features. The SharePoint Framework build toolchain is tested and supported against the 8.x LTS version so this is the version that you should install..
+> Node.js is available in two different releases: the *long term support* release (aka: LTS) is the most stable version that is recommended for most users while the *current* version contains the latest features. The SharePoint Framework build toolchain is tested and supported against the 8.x LTS version so this is the version that you should install.
 >
 > Before installing Node.js, you should verify you haven't previously installed it as part of another install. Open a command prompt or terminal (depending on your developer platform) and execute the following command:
 >

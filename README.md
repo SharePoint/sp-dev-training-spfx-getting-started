@@ -23,12 +23,14 @@ This module has been recorded and is available in the Office Development YouTube
 |        Roles         |                        Author(s)                        |
 | -------------------- | ------------------------------------------------------- |
 | Lab Manuals / Slides | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell |
+| QA                   | Rob Windsor (Microsoft MVP, PAIT Group) @rob-windsor    |
 | Sponsor / Support    | Vesa Juvonen (Microsoft) @VesaJuvonen                   |
 
 ## Version history
 
 | Version |        Date        |             Comments             |
 | ------- | ------------------ | -------------------------------- |
+| 1.2     | December 17, 2018  | 2019Q2 content refresh           |
 | 1.1     | September 28, 2018 | Rewritten to use latest guidance |
 | 1.0     | ~February 2017     | Initial release                  |
 

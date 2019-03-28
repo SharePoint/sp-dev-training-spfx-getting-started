@@ -6,13 +6,13 @@ This module will introduce you to the SharePoint Framework as well as walk you t
 
 In this lab you work with the SharePoint Framework as an end user and then get your local & online environment configured for developing with the SharePoint Framework.
 
-* [Lab manual](./Lab.md)
+- [Lab manual](./Lab.md)
 
 ## Demos
 
-* [Create & Configure your SharePoint Online Developer Tenant](./Demos/01-appcatalog)
-* [Setup your local SPFx Developer Environment](./Demos/02-setup-env)
-* [Interact with SPFx Client-Side Web Parts in Modern Sites](./Demos/03-webpart)
+- [Create & Configure your SharePoint Online Developer Tenant](./Demos/01-appcatalog)
+- [Setup your local SPFx Developer Environment](./Demos/02-setup-env)
+- [Interact with SPFx Client-Side Web Parts in Modern Sites](./Demos/03-webpart)
 
 ## Watch the Module - Video
 
@@ -20,7 +20,7 @@ This module has been recorded and is available in the SharePoint Development You
 
 ## Contributors
 
-|        Roles         |                        Author(s)                        |
+| Roles                | Author(s)                                               |
 | -------------------- | ------------------------------------------------------- |
 | Lab Manuals / Slides | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell |
 | QA                   | Rob Windsor (Microsoft MVP, PAIT Group) @rob-windsor    |
@@ -28,19 +28,20 @@ This module has been recorded and is available in the SharePoint Development You
 
 ## Version history
 
-| Version |        Date        |             Comments             |
+| Version | Date               | Comments                         |
 | ------- | ------------------ | -------------------------------- |
+| 1.3     | March 6, 2019      | 2019Q3 content refresh           |
 | 1.2     | December 17, 2018  | 2019Q2 content refresh           |
 | 1.1     | September 28, 2018 | Rewritten to use latest guidance |
 | 1.0     | ~February 2017     | Initial release                  |
 
 ## Disclaimer
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.microsoft.com.
 

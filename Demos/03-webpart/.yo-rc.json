@@ -2,11 +2,10 @@
   "@microsoft/generator-sharepoint": {
     "isCreatingSolution": true,
     "environment": "spo",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "libraryName": "hello-world",
-    "libraryId": "3c5f061f-f685-4904-ae8c-747cd63ec8af",
+    "libraryId": "ace89aea-0f79-406c-bd9d-16e3c8ef5327",
     "packageManager": "npm",
-    "isDomainIsolated": false,
     "componentType": "webpart"
   }
 }

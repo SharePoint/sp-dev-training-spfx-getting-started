@@ -32,6 +32,8 @@ In this demo you will add and interact with SharePoint Framework based client-si
 
 Use the tools installed previously to create a new SharePoint Framework component and test it in the local developer environment.
 
+> NOTE: The instructions below assume you are using v1.8.2 of the SharePoint Framework Yeoman generator. 
+
 1. Open a command prompt and change to the folder where you want to create the project.
 1. Run the SharePoint Yeoman generator by executing the following command:
 

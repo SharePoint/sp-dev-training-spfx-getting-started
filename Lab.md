@@ -157,6 +157,8 @@ The SharePoint Framework development experience utilizes a set of tools built on
 
 In this exercise you will add and interact with SharePoint Framework based client-side web parts in a SharePoint Online modern site collection.
 
+> NOTE: The instructions below assume you are using v1.8.2 of the SharePoint Framework Yeoman generator. 
+
 1. Open a browser and navigate a modern site in SharePoint Online that you have access to
 
     If prompted, login using your Work or School credentials.

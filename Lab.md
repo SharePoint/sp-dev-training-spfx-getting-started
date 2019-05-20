@@ -28,6 +28,10 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
+1. If you are taken to the new admin center (also known as the modern admin center) you will need to click the **Classic SharePoint admin center** link in the left-hand navigation.
+
+    ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05.png)
+
 1. In the left-hand navigation, select **apps**.
 1. When the page refreshes, select **app catalog**.
 

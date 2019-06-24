@@ -28,6 +28,10 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
+1. If you are taken to the new admin center (also known as the modern admin center) you will need to click the **Classic SharePoint admin center** link in the left-hand navigation.
+
+    ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05.png)
+
 1. In the left-hand navigation, select **apps**.
 1. When the page refreshes, select **app catalog**.
 
@@ -92,35 +96,24 @@ The remainder of this lab & most examples you find from Microsoft use [Visual St
 
 The tools used in compiling, debugging and packaging SharePoint Framework projects are built using Node.js, a runtime that enables JavaScript to run locally vs. a browser. Therefore the first step is to install the runtime, Node.js, before installing the required tools.
 
-> Node.js is available in two different releases: the *long term support* release (aka: LTS) is the most stable version that is recommended for most users while the *current* version contains the latest features. The SharePoint Framework build toolchain is tested and supported against the 8.x LTS version so this is the version that you should install.
->
+> Node.js is available in two different releases: the long term support release (aka: LTS) is the most stable version that is recommended for most users while the current version contains the latest features.
 > Before installing Node.js, you should verify you haven't previously installed it as part of another install. Open a command prompt or terminal (depending on your developer platform) and execute the following command:
 >
 > ```shell
 > node -v
 > ```
 >
-> If a version number is returned, you already have Node. As long as the version you have installed has a major version that equals 8 you do not need to download and install a newer version.
->
-> In the case where you have a version of Node.js installed with a major version number that equals 8, skip installing Node.js and proceed to the next section.
+> If a version number is returned, you already have Node. The SharePoint Framework build toolchain is tested and supported against the 8.x and 10.x LTS versions. So, if you have version 10.x you do not need to download and install a newer version. If you have version 9.x you should install the current LTS version. If you have version 8.x you have the option to keep the current version or install the current LTS version. Finally, if you have  version 7.x or earlier you should install the current LTS version.
+
+If you do not need to install the current LTS version of Node then skip to the next section.
 
 1. Open a browser and navigate to the Node.js Foundation site: https://www.nodejs.org.
 
-    Note that the LTS version major version is greater than 8 so you will need to navigate further into the site to find the 8.x installer.
+1. Select **Downloads** from the top menu navigation.
+
+1. Select LTS and then select the installer for your developer environment. Both Windows and macOS installers are available. This page contains options for additional installs as well such as SunOS, Linux, AIX and even source code downloads.
 
     ![Screenshot of the Node.js](./Images/ex02-installnode-01.png)
-
-1. Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**
-
-    ![Screenshot of the Downloads page](./Images/ex02-installnode-02.png)
-
-1. Select Node.js 8.x in the Previous Releases page.
-
-    ![Screenshot of the Previous Releases page](./Images/ex02-installnode-03.png)
-
-1. Select the appropriate installer or binary for the platorm you are using.
-
-    ![Screenshot of the Node.js 8.x page](./Images/ex02-installnode-04.png)
 
 1. Run the installer to install Node.js and the included version of NPM (*a package manager that Node.js uses, similar to .NET's NuGet*).
 
@@ -163,6 +156,8 @@ The SharePoint Framework development experience utilizes a set of tools built on
 ## Exercise 3: Interact with SPFx Client-Side Web Parts in Modern Sites
 
 In this exercise you will add and interact with SharePoint Framework based client-side web parts in a SharePoint Online modern site collection.
+
+> NOTE: The instructions below assume you are using v1.8.2 of the SharePoint Framework Yeoman generator. 
 
 1. Open a browser and navigate a modern site in SharePoint Online that you have access to
 
@@ -207,6 +202,7 @@ Use the tools installed in exercise 2 to create a new SharePoint Framework compo
     * **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
     * **Where do you want to place the files?**: Use the current folder
     * **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
+    * **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No    
     * **Which type of client-side component to create?**: WebPart
     * **What is your Web part name?**: HelloWorld
     * **What is your Web part description?**: HelloWorld description

@@ -32,6 +32,8 @@ In this demo you will add and interact with SharePoint Framework based client-si
 
 Use the tools installed previously to create a new SharePoint Framework component and test it in the local developer environment.
 
+> NOTE: The instructions below assume you are using v1.8.2 of the SharePoint Framework Yeoman generator. 
+
 1. Open a command prompt and change to the folder where you want to create the project.
 1. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -45,6 +47,7 @@ Use the tools installed previously to create a new SharePoint Framework componen
     * **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
     * **Where do you want to place the files?**: Use the current folder
     * **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
+    * **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No       
     * **Which type of client-side component to create?**: WebPart
     * **What is your Web part name?**: HelloWorld
     * **What is your Web part description?**: HelloWorld description

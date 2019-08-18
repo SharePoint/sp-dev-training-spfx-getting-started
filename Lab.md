@@ -22,7 +22,7 @@ To complete this lab, you need the following:
 
 In this exercise you will configure your SharePoint environment to be ready for SharePoint Framework development. This process involves three steps: creating an app catalog site for your tenant, a developer site collection and a site collection app catalog in your developer site collection.
 
-### Create app catalog for your SharePoint tenant
+### Create an app catalog for your SharePoint tenant
 
 1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com**
 
@@ -32,11 +32,11 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     ![Screenshot of the classic SharePoint Admin Center](./Images/ex01-appcatalog-01.png)
 
-1. If you are taken to the new admin center (also known as the modern admin center), select the **Classic features** link in the left-hand navigation.
+1. If you are taken to the new admin center (also known as the modern admin center), select **Classic features** in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05.png)
 
-    1. Select the **Open** button under **Apps".
+    1. Select the **Open** button under **Apps**.
 
         ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05a.png)
 

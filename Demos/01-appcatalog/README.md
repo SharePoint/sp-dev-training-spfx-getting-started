@@ -2,20 +2,27 @@
 
 In this demo you will configure your SharePoint environment to be ready for SharePoint Framework development. This process involves three steps: creating an app catalog site for your tenant, a developer site collection and a site collection app catalog in your developer site collection.
 
-## Create app catalog for your SharePoint tenant
+## Create an app catalog for your SharePoint tenant
 
 1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com**
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. If you are taken to the new admin center (also known as the modern admin center) you will need to click the **Classic SharePoint admin center** link in the left-hand navigation.
+1. If you are taken to the classic admin center, select **apps** in the left-hand navigation and then select **App Catalog**.
+
+    ![Screenshot of the classic SharePoint Admin Center](./../../Images/ex01-appcatalog-01.png)
+
+1. If you are taken to the new admin center (also known as the modern admin center), select **Classic features** in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05.png)
 
-1. In the left-hand navigation, select **apps**.
-1. When the page refreshes, select **app catalog**.
+    1. Select the **Open** button under **Apps**.
 
-    ![Screenshot of the SharePoint Admin Center main page](./../../Images/ex01-appcatalog-01.png)
+        ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05a.png)
+
+    1. When the new page opens, select **App Catalog**.
+
+        ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05b.png)
 
     > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. SharePoint Online tenancies can only have one app catalog. In this case, you can skip to the next step to create a developer site collection.
     >

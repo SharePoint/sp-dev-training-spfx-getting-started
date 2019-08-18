@@ -28,14 +28,21 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. If you are taken to the new admin center (also known as the modern admin center) you will need to click the **Classic SharePoint admin center** link in the left-hand navigation.
+1. If you are taken to the classic admin center, select **apps** in the left-hand navigation and then select **App Catalog**.
+
+    ![Screenshot of the classic SharePoint Admin Center](./Images/ex01-appcatalog-01.png)
+
+1. If you are taken to the new admin center (also known as the modern admin center), select the **Classic features** link in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05.png)
 
-1. In the left-hand navigation, select **apps**.
-1. When the page refreshes, select **app catalog**.
+    1. Select the **Open** button under **Apps".
 
-    ![Screenshot of the SharePoint Admin Center main page](./Images/ex01-appcatalog-01.png)
+        ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05a.png)
+
+    1. When the new page opens, select **App Catalog**.
+
+        ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05b.png)
 
     > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. SharePoint Online tenancies can only have one app catalog. In this case, you can skip to the next step to create a developer site collection.
     >

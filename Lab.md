@@ -40,7 +40,7 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05b.png)
 
-    > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. SharePoint Online tenancies can only have one app catalog. In this case, you can skip to the next step to create a developer site collection.
+    > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. In this case, you can skip to the next step to create a developer site collection.
     >
     > ![Screenshot of a provisioned App Catalog](./Images/ex01-appcatalog-02.png)
     >

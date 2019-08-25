@@ -49,7 +49,7 @@ In this exercise you will configure your SharePoint environment to be ready for 
     > ![Screenshot of the app catalog creation options](./Images/ex01-appcatalog-03.png)
 
 1. Select **Create a new app catalog site** option & select the **OK** button.
-1. On the **Create App Catalog Site Collection** page, enter the following details and select **OK**:
+1. On the **Create App Catalog Site Collection** page, enter the following details and select **OK**.
     - **Title**: app catalog
     - **Web Site Address (suffix)**: appcatalog
     - **Administrator**: *enter your username & select the **check names** icon to resolve your username*

@@ -20,7 +20,7 @@ To complete this lab, you need the following:
 
 ## Exercise 1: Create & Configure your SharePoint Online Developer Tenant
 
-In this exercise you will configure your SharePoint environment to be ready for SharePoint Framework development. This process involves three steps: creating an app catalog site for your tenant, a developer site collection and a site collection app catalog in your developer site collection.
+In this exercise you will configure your SharePoint environment to be ready for SharePoint Framework development. 
 
 ### Create an app catalog for your SharePoint tenant
 

@@ -2,27 +2,23 @@
 
 In this demo you will configure your SharePoint environment to be ready for SharePoint Framework development. This process involves three steps: creating an app catalog site for your tenant, a developer site collection and a site collection app catalog in your developer site collection.
 
-## Create an app catalog for your SharePoint tenant
+### Create an app catalog for your SharePoint tenant
 
-1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com**
+1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**.
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. If you are taken to the classic admin center, select **apps** in the left-hand navigation and then select **App Catalog**.
-
-    ![Screenshot of the classic SharePoint Admin Center](./../../Images/ex01-appcatalog-01.png)
-
-1. If you are taken to the new admin center (also known as the modern admin center), select **Classic features** in the left-hand navigation.
+1. Select **Classic features** in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05.png)
 
-    1. Select the **Open** button under **Apps**.
+1. Select the **Open** button under **Apps**.
 
-        ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05a.png)
+    ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05a.png)
 
-    1. When the new page opens, select **App Catalog**.
+1. When the new page opens, select **App Catalog**.
 
-        ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05b.png)
+    ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05b.png)
 
     > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. SharePoint Online tenancies can only have one app catalog. In this case, you can skip to the next step to create a developer site collection.
     >
@@ -42,17 +38,25 @@ In this demo you will configure your SharePoint environment to be ready for Shar
 
     SharePoint Online will provision the app catalog for the tenant.
 
-## Create a developer site collection
+### Create a developer site collection
 
-1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com**
+1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**.
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. On the **SharePoint Admin Center** site, select **New > Private Site Collection** from the ribbon menu:
+1. On the **SharePoint Admin Center** site, select **Sites > Active sites** from the left-hand navigation and then select **Create**.
 
-    ![Screenshot of the new site collection menu in the ribbon](./../../Images/ex01-newsitecollection-01.png)
+    ![Screenshot of the active sites list](./../../Images/ex01-newsitecollection-04.png)
 
-1. In the **New Site Collection** dialog, enter the following values to create a new developer site collection and select **OK**:
+1. On the **Create a site** panel, select the **Other options** button.
+
+    ![Screenshot of the create a site panel](./../../Images/ex01-newsitecollection-05.png)
+    
+1. On the **Other options** panel, open the **Choose a template** dropdown and select **More templates**. This will open the **Create Site Collection** page in a new browser tab.
+
+    ![Screenshot of the other options panel](./../../Images/ex01-newsitecollection-06.png)
+    
+1. In the **Create Site Collection** page, enter the following values to create a new developer site collection and select **OK**.
 
     - **Title**: Developer Site
     - **Web Site Address (suffix)**: /dev
@@ -61,8 +65,6 @@ In this demo you will configure your SharePoint environment to be ready for Shar
 
     ![Screenshot of the new site collection dialog](./../../Images/ex01-newsitecollection-02.png)
 
-> NOTE: After a few minutes the site collection will be created. The default SharePoint Admin Center currently only displays *classic* SharePoint site collections. On this page there will be a banner to preview the **new SharePoint admin center**. Select **Try the preview** to try the new admin center.
+> NOTE: After a few minutes the site collection will be created. Navigate back to the **SharePoint Admin Center** using the URL provided above and then select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
-> In the new **SharePoint Admin Center**, select the **Sites > Active Sites** item in the left-hand menu to see a list of all sites, including *classic* as well as *modern* sites. In this list, you will see the **Developer site** that you just created:
->
-> ![Screenshot of the Preview SharePoint Admin Center site collection list](./../../Images/ex01-newsitecollection-03.png)
+> ![Screenshot of the SharePoint Admin Center site collection list](./../../Images/ex01-newsitecollection-03.png)

@@ -2,10 +2,9 @@
 
 In this demo you will add and interact with SharePoint Framework based client-side web parts in a SharePoint Online modern site collection.
 
-1. Open a browser and navigate a modern site in SharePoint Online that you have access to
+1. Open a browser and navigate to the development site you created in the first exercise. If prompted, login using your Work or School credentials.
 
-    If prompted, login using your Work or School credentials.
-1. Create a new modern page to use in this demo:
+1. Create a new modern page to use in this exercise:
 
   1. Select the **Pages** link in the left-hand Quick Launch navigation menu
 
@@ -15,18 +14,27 @@ In this demo you will add and interact with SharePoint Framework based client-si
 
     ![Screenshot of creating a new modern site page in the Pages library](./../../Images/ex03-new-sitepage.png)
 
-1. With the page in edit mode, select the web part icon button to open the list of available web parts:
+1. Set the name of the page to **Getting Started**.
 
-    ![Screenshot of the web part icon on the page](./../../Images/ex03-add-webpart-01.png)
+    ![Screenshot of the page name](./../../Images/ex03-add-webpart-01.png)
 
-1. Select the web part **Text**.
-1. When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar:
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of the web part icon on the page](./../../Images/ex03-add-webpart-02.png)
 
-1. Delete the web part form the page by selecting the trash can icon to the left of the web part:
+1. Select the web part **Text**.
 
-    ![Screenshot of the web part delete tool](./../../Images/ex03-add-webpart-03.png)
+    ![Screenshot of the web part toolbox](./../../Images/ex03-add-webpart-03.png)
+
+1. When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar.
+
+    ![Screenshot of the web part on the page](./../../Images/ex03-add-webpart-04.png)
+
+1. Click **Save as draft** to see the page as your users will see it.
+
+    ![Screenshot of saving the page](./../../Images/ex03-add-webpart-05.png)
+
+    ![Screenshot of the draft page](./../../Images/ex03-add-webpart-06.png)
 
 ## Verify your Developer Environment is Configured
 

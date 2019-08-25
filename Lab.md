@@ -164,11 +164,9 @@ In this exercise you will add and interact with SharePoint Framework based clien
 
 1. Open a browser and navigate to the development site you created in the first exercise. If prompted, login using your Work or School credentials.
 
-1. Create a new modern page to use in this exercise:
+1. Select the **Pages** link in the left-hand Quick Launch navigation menu.
 
-  1. Select the **Pages** link in the left-hand Quick Launch navigation menu
-
-      ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./Images/ex03-pages-library.png)
+    ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./Images/ex03-pages-library.png)
 
 1. In the **Pages** library, select the **New** button from the toolbar and select **Site Page** to create a new page.
 
@@ -229,23 +227,23 @@ Use the tools installed in exercise 2 to create a new SharePoint Framework compo
     gulp serve
     ```
 
-1. The SharePoint Framework's gulp **serve** task will build the project, start a local web server and launch a browser open to the SharePoint Workbench:
+1. The SharePoint Framework's gulp **serve** task will build the project, start a local web server and launch a browser open to the SharePoint Workbench.
 
     ![Screenshot of the SharePoint Workbench](./Images/ex03-testing-01.png)
 
-1. Select the web part icon button to open the list of available web parts:
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of adding the HelloWorld web part](./Images/ex03-testing-02.png)
 
-1. Select the **HelloWorld** web part:
+1. Select the **HelloWorld** web part.
 
     ![Screenshot of the HelloWorld web part](./Images/ex03-testing-03.png)
 
-1. Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part:
+1. Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part.
 
     ![Screenshot of the web part edit toolbar](./Images/ex03-testing-04.png)
 
-1. In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text:
+1. In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text.
 
     ![Screenshot of editing the web part property pane](./Images/ex03-testing-05.png)
 

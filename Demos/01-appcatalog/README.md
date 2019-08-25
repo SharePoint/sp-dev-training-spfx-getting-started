@@ -38,7 +38,7 @@ In this demo you will configure your SharePoint environment to be ready for Shar
 
     SharePoint Online will provision the app catalog for the tenant.
 
-### Create a developer site collection
+### Create a development site collection
 
 1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**.
 
@@ -46,25 +46,21 @@ In this demo you will configure your SharePoint environment to be ready for Shar
 
 1. On the **SharePoint Admin Center** site, select **Sites > Active sites** from the left-hand navigation and then select **Create**.
 
-    ![Screenshot of the active sites list](./../../Images/ex01-newsitecollection-04.png)
+    ![Screenshot of the active sites list](./../../Images/ex01-newsitecollection-01.png)
 
 1. On the **Create a site** panel, select the **Other options** button.
 
-    ![Screenshot of the create a site panel](./../../Images/ex01-newsitecollection-05.png)
+    ![Screenshot of the create a site panel](./../../Images/ex01-newsitecollection-02.png)
     
-1. On the **Other options** panel, open the **Choose a template** dropdown and select **More templates**. This will open the **Create Site Collection** page in a new browser tab.
+1. On the **Other options** panel, keep the default value of **Team site** in the **Choose a template** dropdown and then enter the following values to create a new team site collection and select **Finish**.
 
-    ![Screenshot of the other options panel](./../../Images/ex01-newsitecollection-06.png)
-    
-1. In the **Create Site Collection** page, enter the following values to create a new developer site collection and select **OK**.
+    - **Site name**: Developer Site
+    - **Site address**: ../sites/DeveloperSite
+    - **Primary administrator**: *use the people picker to select your account*
+    - **Select a language**: English
 
-    - **Title**: Developer Site
-    - **Web Site Address (suffix)**: /dev
-    - **Template Selection**: Collaboration / Developer Site
-    - **Administrator**: *enter your username & select the **check names** icon to resolve your username*
+    ![Screenshot of the other options panel](./../../Images/ex01-newsitecollection-03.png)
 
-    ![Screenshot of the new site collection dialog](./../../Images/ex01-newsitecollection-02.png)
-
-> NOTE: After a few minutes the site collection will be created. Navigate back to the **SharePoint Admin Center** using the URL provided above and then select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
+> NOTE: After a few minutes the site collection will be created. On the **SharePoint Admin Center** site, select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
-> ![Screenshot of the SharePoint Admin Center site collection list](./../../Images/ex01-newsitecollection-03.png)
+> ![Screenshot of the SharePoint Admin Center site collection list](./../../Images/ex01-newsitecollection-04.png)

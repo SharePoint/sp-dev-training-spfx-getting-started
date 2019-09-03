@@ -20,24 +20,27 @@ To complete this lab, you need the following:
 
 ## Exercise 1: Create & Configure your SharePoint Online Developer Tenant
 
-In this exercise you will configure your SharePoint environment to be ready for SharePoint Framework development. This process involves three steps: creating an app catalog site for your tenant, a developer site collection and a site collection app catalog in your developer site collection.
+In this exercise you will configure your SharePoint environment to be ready for SharePoint Framework development. 
 
-### Create app catalog for your SharePoint tenant
+### Create an app catalog for your SharePoint tenant
 
-1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com**
+1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**.
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. If you are taken to the new admin center (also known as the modern admin center) you will need to click the **Classic SharePoint admin center** link in the left-hand navigation.
+1. Select **Classic features** in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05.png)
 
-1. In the left-hand navigation, select **apps**.
-1. When the page refreshes, select **app catalog**.
+1. Select the **Open** button under **Apps**.
 
-    ![Screenshot of the SharePoint Admin Center main page](./Images/ex01-appcatalog-01.png)
+    ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05a.png)
 
-    > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. SharePoint Online tenancies can only have one app catalog. In this case, you can skip to the next step to create a developer site collection.
+1. When the new page opens, select **App Catalog**.
+
+    ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05b.png)
+
+    > If you are taken to an app catalog site as shown in the following image, then your tenant already has an app catalog, created by someone previously. In this case, you can skip to the next step to create a developer site collection.
     >
     > ![Screenshot of a provisioned App Catalog](./Images/ex01-appcatalog-02.png)
     >
@@ -46,7 +49,7 @@ In this exercise you will configure your SharePoint environment to be ready for 
     > ![Screenshot of the app catalog creation options](./Images/ex01-appcatalog-03.png)
 
 1. Select **Create a new app catalog site** option & select the **OK** button.
-1. On the **Create App Catalog Site Collection** page, enter the following details and select **OK**:
+1. On the **Create App Catalog Site Collection** page, enter the following details and select **OK**.
     - **Title**: app catalog
     - **Web Site Address (suffix)**: appcatalog
     - **Administrator**: *enter your username & select the **check names** icon to resolve your username*
@@ -55,30 +58,32 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     SharePoint Online will provision the app catalog for the tenant.
 
-### Create a developer site collection
+### Create a development site collection
 
-1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com**
+1. Open a browser and navigate to your Office 365 tenant's **SharePoint Admin Center** site: **https://{{REPLACE_WITH_YOUR_TENANTID}}-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx**.
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. On the **SharePoint Admin Center** site, select **New > Private Site Collection** from the ribbon menu:
+1. On the **SharePoint Admin Center** site, select **Sites > Active sites** from the left-hand navigation and then select **Create**.
 
-    ![Screenshot of the new site collection menu in the ribbon](./Images/ex01-newsitecollection-01.png)
+    ![Screenshot of the active sites list](./Images/ex01-newsitecollection-01.png)
 
-1. In the **New Site Collection** dialog, enter the following values to create a new developer site collection and select **OK**:
+1. On the **Create a site** panel, select the **Other options** button.
 
-    - **Title**: Developer Site
-    - **Web Site Address (suffix)**: /dev
-    - **Template Selection**: Collaboration / Developer Site
-    - **Administrator**: *enter your username & select the **check names** icon to resolve your username*
+    ![Screenshot of the create a site panel](./Images/ex01-newsitecollection-02.png)
+    
+1. On the **Other options** panel, keep the default value of **Team site** in the **Choose a template** dropdown and then enter the following values to create a new team site collection and select **Finish**.
 
-    ![Screenshot of the new site collection dialog](./Images/ex01-newsitecollection-02.png)
+    - **Site name**: Developer Site
+    - **Site address**: ../sites/DeveloperSite
+    - **Primary administrator**: *use the people picker to select your account*
+    - **Select a language**: English
 
-> NOTE: After a few minutes the site collection will be created. The default SharePoint Admin Center currently only displays *classic* SharePoint site collections. On this page there will be a banner to preview the **new SharePoint admin center**. Select **Try the preview** to try the new admin center.
+    ![Screenshot of the other options panel](./Images/ex01-newsitecollection-03.png)
+
+> NOTE: After a few minutes the site collection will be created. On the **SharePoint Admin Center** site, select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
-> In the new **SharePoint Admin Center**, select the **Sites > Active Sites** item in the left-hand menu to see a list of all sites, including *classic* as well as *modern* sites. In this list, you will see the **Developer site** that you just created:
->
-> ![Screenshot of the Preview SharePoint Admin Center site collection list](./Images/ex01-newsitecollection-03.png)
+> ![Screenshot of the SharePoint Admin Center site collection list](./Images/ex01-newsitecollection-04.png)
 
 <a name="exercise2"></a>
 
@@ -157,35 +162,41 @@ The SharePoint Framework development experience utilizes a set of tools built on
 
 In this exercise you will add and interact with SharePoint Framework based client-side web parts in a SharePoint Online modern site collection.
 
-> NOTE: The instructions below assume you are using v1.8.2 of the SharePoint Framework Yeoman generator. 
+1. Open a browser and navigate to the development site you created in the first exercise. If prompted, login using your Work or School credentials.
 
-1. Open a browser and navigate a modern site in SharePoint Online that you have access to
+1. Select the **Pages** link in the left-hand Quick Launch navigation menu.
 
-    If prompted, login using your Work or School credentials.
-1. Create a new modern page to use in this exercise:
-
-  1. Select the **Pages** link in the left-hand Quick Launch navigation menu
-
-      ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./Images/ex03-pages-library.png)
+    ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./Images/ex03-pages-library.png)
 
 1. In the **Pages** library, select the **New** button from the toolbar and select **Site Page** to create a new page.
 
     ![Screenshot of creating a new modern site page in the Pages library](./Images/ex03-new-sitepage.png)
 
-1. With the page in edit mode, select the web part icon button to open the list of available web parts:
+1. Set the name of the page to **Getting Started**.
 
-    ![Screenshot of the web part icon on the page](./Images/ex03-add-webpart-01.png)
+    ![Screenshot of the page name](./Images/ex03-add-webpart-01.png)
 
-1. Select the web part **Text**.
-1. When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar:
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of the web part icon on the page](./Images/ex03-add-webpart-02.png)
 
-1. Delete the web part form the page by selecting the trash can icon to the left of the web part:
+1. Select the web part **Text**.
 
-    ![Screenshot of the web part delete tool](./Images/ex03-add-webpart-03.png)
+    ![Screenshot of the web part toolbox](./Images/ex03-add-webpart-03.png)
+
+1. When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar.
+
+    ![Screenshot of the web part on the page](./Images/ex03-add-webpart-04.png)
+
+1. Click **Save as draft** to see the page as your users will see it.
+
+    ![Screenshot of saving the page](./Images/ex03-add-webpart-05.png)
+
+    ![Screenshot of the draft page](./Images/ex03-add-webpart-06.png)
 
 ### Verify your Developer Environment is Configured
+
+> NOTE: The instructions below assume you are using v1.9.1 of the SharePoint Framework Yeoman generator. 
 
 Use the tools installed in exercise 2 to create a new SharePoint Framework component and test it in the local developer environment.
 
@@ -216,23 +227,23 @@ Use the tools installed in exercise 2 to create a new SharePoint Framework compo
     gulp serve
     ```
 
-1. The SharePoint Framework's gulp **serve** task will build the project, start a local web server and launch a browser open to the SharePoint Workbench:
+1. The SharePoint Framework's gulp **serve** task will build the project, start a local web server and launch a browser open to the SharePoint Workbench.
 
     ![Screenshot of the SharePoint Workbench](./Images/ex03-testing-01.png)
 
-1. Select the web part icon button to open the list of available web parts:
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of adding the HelloWorld web part](./Images/ex03-testing-02.png)
 
-1. Select the **HelloWorld** web part:
+1. Select the **HelloWorld** web part.
 
     ![Screenshot of the HelloWorld web part](./Images/ex03-testing-03.png)
 
-1. Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part:
+1. Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part.
 
     ![Screenshot of the web part edit toolbar](./Images/ex03-testing-04.png)
 
-1. In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text:
+1. In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text.
 
     ![Screenshot of editing the web part property pane](./Images/ex03-testing-05.png)
 

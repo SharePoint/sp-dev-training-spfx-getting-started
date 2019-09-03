@@ -2,37 +2,43 @@
 
 In this demo you will add and interact with SharePoint Framework based client-side web parts in a SharePoint Online modern site collection.
 
-1. Open a browser and navigate a modern site in SharePoint Online that you have access to
+1. Open a browser and navigate to the development site you created in the first exercise. If prompted, login using your Work or School credentials.
 
-    If prompted, login using your Work or School credentials.
-1. Create a new modern page to use in this demo:
+1. Select the **Pages** link in the left-hand Quick Launch navigation menu
 
-  1. Select the **Pages** link in the left-hand Quick Launch navigation menu
-
-      ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./../../Images/ex03-pages-library.png)
+    ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./../../Images/ex03-pages-library.png)
 
 1. In the **Pages** library, select the **New** button from the toolbar and select **Site Page** to create a new page.
 
     ![Screenshot of creating a new modern site page in the Pages library](./../../Images/ex03-new-sitepage.png)
 
-1. With the page in edit mode, select the web part icon button to open the list of available web parts:
+1. Set the name of the page to **Getting Started**.
 
-    ![Screenshot of the web part icon on the page](./../../Images/ex03-add-webpart-01.png)
+    ![Screenshot of the page name](./../../Images/ex03-add-webpart-01.png)
 
-1. Select the web part **Text**.
-1. When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar:
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of the web part icon on the page](./../../Images/ex03-add-webpart-02.png)
 
-1. Delete the web part form the page by selecting the trash can icon to the left of the web part:
+1. Select the web part **Text**.
 
-    ![Screenshot of the web part delete tool](./../../Images/ex03-add-webpart-03.png)
+    ![Screenshot of the web part toolbox](./../../Images/ex03-add-webpart-03.png)
+
+1. When the web part is added to the page, add some text and use the rich-text formatting tools provided in the toolbar.
+
+    ![Screenshot of the web part on the page](./../../Images/ex03-add-webpart-04.png)
+
+1. Click **Save as draft** to see the page as your users will see it.
+
+    ![Screenshot of saving the page](./../../Images/ex03-add-webpart-05.png)
+
+    ![Screenshot of the draft page](./../../Images/ex03-add-webpart-06.png)
 
 ## Verify your Developer Environment is Configured
 
 Use the tools installed previously to create a new SharePoint Framework component and test it in the local developer environment.
 
-> NOTE: The instructions below assume you are using v1.8.2 of the SharePoint Framework Yeoman generator. 
+> NOTE: The instructions below assume you are using v1.9.1 of the SharePoint Framework Yeoman generator. 
 
 1. Open a command prompt and change to the folder where you want to create the project.
 1. Run the SharePoint Yeoman generator by executing the following command:
@@ -61,23 +67,23 @@ Use the tools installed previously to create a new SharePoint Framework componen
     gulp serve
     ```
 
-1. The SharePoint Framework's gulp **serve** task will build the project, start a local web server and launch a browser open to the SharePoint Workbench:
+1. The SharePoint Framework's gulp **serve** task will build the project, start a local web server and launch a browser open to the SharePoint Workbench.
 
     ![Screenshot of the SharePoint Workbench](./../../Images/ex03-testing-01.png)
 
-1. Select the web part icon button to open the list of available web parts:
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of adding the HelloWorld web part](./../../Images/ex03-testing-02.png)
 
-1. Select the **HelloWorld** web part:
+1. Select the **HelloWorld** web part.
 
     ![Screenshot of the HelloWorld web part](./../../Images/ex03-testing-03.png)
 
-1. Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part:
+1. Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part.
 
     ![Screenshot of the web part edit toolbar](./../../Images/ex03-testing-04.png)
 
-1. In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text:
+1. In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text.
 
     ![Screenshot of editing the web part property pane](./../../Images/ex03-testing-05.png)
 

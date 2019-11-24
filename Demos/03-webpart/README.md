@@ -4,7 +4,7 @@ In this demo you will add and interact with SharePoint Framework based client-si
 
 1. Open a browser and navigate to the development site you created in the first exercise. If prompted, login using your Work or School credentials.
 
-1. Select the **Pages** link in the left-hand Quick Launch navigation menu
+1. Select the **Pages** link in the left-hand Quick Launch navigation menu.
 
     ![Screenshot of the SharePoint site's Quick Launch navigation with the Pages library highlighted](./../../Images/ex03-pages-library.png)
 
@@ -34,13 +34,13 @@ In this demo you will add and interact with SharePoint Framework based client-si
 
     ![Screenshot of the draft page](./../../Images/ex03-add-webpart-06.png)
 
-## Verify your Developer Environment is Configured
-
-Use the tools installed previously to create a new SharePoint Framework component and test it in the local developer environment.
+### Verify your Developer Environment is Configured
 
 > NOTE: The instructions below assume you are using v1.9.1 of the SharePoint Framework Yeoman generator. 
 
-1. Open a command prompt and change to the folder where you want to create the project.
+Use the tools installed in exercise 2 to create a new SharePoint Framework component and test it in the local developer environment.
+
+1. Open a command prompt and change to an empty folder where you want to store the files for the project.
 1. Run the SharePoint Yeoman generator by executing the following command:
 
     ```shell
@@ -53,7 +53,7 @@ Use the tools installed previously to create a new SharePoint Framework componen
     * **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
     * **Where do you want to place the files?**: Use the current folder
     * **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
-    * **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No       
+    * **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No    
     * **Which type of client-side component to create?**: WebPart
     * **What is your Web part name?**: HelloWorld
     * **What is your Web part description?**: HelloWorld description
@@ -61,7 +61,13 @@ Use the tools installed previously to create a new SharePoint Framework componen
 
     After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
 
-1. When NPM completes downloading all dependencies, run the project by executing the following command:
+1. When NPM completes downloading all dependencies, install the developer certificate by executing the following command:
+
+    ```shell
+    gulp trust-dev-cert
+    ```
+
+1. Run the project by executing the following command:
 
     ```shell
     gulp serve

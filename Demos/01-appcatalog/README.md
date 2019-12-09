@@ -8,7 +8,7 @@ In this demo you will configure your SharePoint environment to be ready for Shar
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. Select **Classic features** in the left-hand navigation.
+1. Select **More features** in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./../../Images/ex01-appcatalog-05.png)
 
@@ -61,6 +61,6 @@ In this demo you will configure your SharePoint environment to be ready for Shar
 
     ![Screenshot of the other options panel](./../../Images/ex01-newsitecollection-03.png)
 
-> NOTE: After a few minutes the site collection will be created. On the **SharePoint Admin Center** site, select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
+> NOTE: After a minute or two the site collection will be created. On the **SharePoint Admin Center** site, select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
 > ![Screenshot of the SharePoint Admin Center site collection list](./../../Images/ex01-newsitecollection-04.png)

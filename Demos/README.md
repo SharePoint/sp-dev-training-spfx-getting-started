@@ -1,6 +1,6 @@
 # Microsoft SharePoint Framework Training Module - Getting Started with the SharePoint Framework
 
-This folder contains demos for the SharePoint Framework module on Getting Started with the SharePoint Framework.
+This folder contains demos associated with the slide decks in this module.
 
 ## Demos
 

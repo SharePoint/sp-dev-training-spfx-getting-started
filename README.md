@@ -2,17 +2,29 @@
 
 This module will introduce you to the SharePoint Framework as well as walk you through getting your local & online environment configured for developing with the SharePoint Framework.
 
+> This module is also published as a Microsoft Learn module: [Getting Started with the SharePoint Framework](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started)
+
 ## Lab - Getting Started with the SharePoint Framework
 
-In this lab you work with the SharePoint Framework as an end user and then get your local & online environment configured for developing with the SharePoint Framework.
+The lab for this module is available in multiple units within the associated Microsoft Learn module. Use the following links to jump to the specific unit. Each Microsoft Learn unit represents a different lab exercise & demo in the presentation.
 
-- [Lab manual](./Lab.md)
+1. [Exercise - Create and configure your SharePoint Online developer tenant](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/3-exercise-configure-tenant)
+
+    In this exercise, you'll configure your SharePoint environment to be ready for SharePoint Framework development.
+
+1. [Exercise - Configure your SharePoint Framework development environment](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/5-exercise-setup-development-environment)
+
+    In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
+
+1. [Exercise - Interact with SPFx client-side web parts in modern sites](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/7-exercise-client-side-webparts)
+
+    In this exercise, you'll add and interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
 
 ## Demos
 
-- [Create & Configure your SharePoint Online Developer Tenant](./Demos/01-appcatalog)
-- [Setup your local SPFx Developer Environment](./Demos/02-setup-env)
-- [Interact with SPFx Client-Side Web Parts in Modern Sites](./Demos/03-webpart)
+- [Create and configure your SharePoint Online developer tenant](./Demos/01-appcatalog)
+- [Configure your SharePoint Framework development environment](./Demos/02-setup-env)
+- [Interact with SPFx client-side web parts in modern sites](./Demos/03-webpart)
 
 ## Watch the Module - Video
 
@@ -20,23 +32,24 @@ This module has been recorded and is available in the SharePoint Development You
 
 ## Contributors
 
-|        Roles         |                                       Author(s)                                       |
-| -------------------- | ------------------------------------------------------------------------------------- |
-| Lab Manuals / Slides | Andrew Connell (Microsoft MVP, Voitanos) [@andrewconnell](//github.com/andrewconnell) |
-| QA                   | Rob Windsor (Microsoft MVP, PAIT Group) [@rob-windsor](//github.com/rob-windsor)      |
-| Sponsor / Support    | Vesa Juvonen (Microsoft) [@VesaJuvonen](//github.com/VesaJuvonen)                     |
+|        Roles         |                                                   Author(s)                                                    |
+| -------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Lab Manuals / Slides | Andrew Connell (Microsoft MVP, [Voitanos](//github.com/voitanos)) [@andrewconnell](//github.com/andrewconnell) |
+| QA                   | Rob Windsor (Microsoft MVP, PAIT Group) [@rob-windsor](//github.com/rob-windsor)                               |
+| Sponsor / Support    | Vesa Juvonen (Microsoft) [@VesaJuvonen](//github.com/VesaJuvonen)                                              |
 
 ## Version history
 
-| Version |        Date        |             Comments             |
-| ------- | ------------------ | -------------------------------- |
-| 1.6     | December 6, 2019   | 2020Q2 content refresh           |
-| 1.5     | September 2, 2019  | 2020Q1 content refresh           |
-| 1.4     | May 24, 2019       | 2019Q4 content refresh           |
-| 1.3     | March 6, 2019      | 2019Q3 content refresh           |
-| 1.2     | December 17, 2018  | 2019Q2 content refresh           |
-| 1.1     | September 28, 2018 | Rewritten to use latest guidance |
-| 1.0     | ~February 2017     | Initial release                  |
+| Version |        Date        |                      Comments                      |
+| ------- | ------------------ | -------------------------------------------------- |
+| 1.7     | March 10, 2020     | FY2020Q3 content refresh & port module to MS Learn |
+| 1.6     | December 6, 2019   | FY2020Q2 content refresh                           |
+| 1.5     | September 2, 2019  | FY2020Q1 content refresh                           |
+| 1.4     | May 24, 2019       | FY2019Q4 content refresh                           |
+| 1.3     | March 6, 2019      | FY2019Q3 content refresh                           |
+| 1.2     | December 17, 2018  | FY2019Q2 content refresh                           |
+| 1.1     | September 28, 2018 | Rewritten to use latest guidance                   |
+| 1.0     | ~February 2017     | Initial release                                    |
 
 ## Disclaimer
 

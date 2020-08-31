@@ -1,6 +1,6 @@
 # DEMO: Setup your local SPFx Developer Environment
 
-This completed project is the result of the lab exercise **Setup your local SPFx Developer Environment** that is referenced in the [README](../../) in this repo.
+This completed project is the result of the lab exercise **Setup your local SPFx Developer Environment** that is referenced in the [README](../../README.md) in this repo.
 
 ## Prerequisites
 

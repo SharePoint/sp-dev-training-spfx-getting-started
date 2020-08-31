@@ -1,6 +1,6 @@
 # DEMO: Interact with SPFx Client-Side Web Parts in Modern Sites
 
-This completed project is the result of the lab exercise **Interact with SPFx Client-Side Web Parts in Modern Sites** that is referenced in the [README](../../) in this repo.
+This completed project is the result of the lab exercise **Interact with SPFx Client-Side Web Parts in Modern Sites** that is referenced in the [README](../../README.md) in this repo.
 
 ## Prerequisites
 

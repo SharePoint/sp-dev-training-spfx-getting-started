@@ -1,6 +1,6 @@
 # DEMO: Create & Configure your SharePoint Online Developer Tenant
 
-This completed project is the result of the lab exercise **Create & Configure your SharePoint Online Developer Tenant** that is referenced in the [README](../../) in this repo.
+This completed project is the result of the lab exercise **Create & Configure your SharePoint Online Developer Tenant** that is referenced in the [README](../../README.md) in this repo.
 
 ## Prerequisites
 

@@ -16,7 +16,7 @@ The lab for this module is available in multiple units within the associated Mic
 
     In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
 
-1. [Exercise - Interact with SPFx client-side web parts in modern sites](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/7-exercise-client-side-webparts)
+1. [Exercise - Interact with SPFx client-side web parts in modern sites](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/7-exercise-client-side-web-parts)
 
     In this exercise, you'll add and interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
 
@@ -42,6 +42,7 @@ This module has been recorded and is available in the SharePoint Development You
 
 | Version |        Date        |                      Comments                      |
 | ------- | ------------------ | -------------------------------------------------- |
+| 1.8     | August 31, 2020    | FY2021Q1 content refresh                           |
 | 1.7     | March 10, 2020     | FY2020Q3 content refresh & port module to MS Learn |
 | 1.6     | December 6, 2019   | FY2020Q2 content refresh                           |
 | 1.5     | September 2, 2019  | FY2020Q1 content refresh                           |

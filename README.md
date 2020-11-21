@@ -10,15 +10,15 @@ The lab for this module is available in multiple units within the associated Mic
 
 1. [Exercise - Create and configure your SharePoint Online developer tenant](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/3-exercise-configure-tenant)
 
-    In this exercise, you'll configure your SharePoint environment to be ready for SharePoint Framework development.
+   In this exercise, you'll configure your SharePoint environment to be ready for SharePoint Framework development.
 
 1. [Exercise - Configure your SharePoint Framework development environment](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/5-exercise-setup-development-environment)
 
-    In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
+   In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
 
 1. [Exercise - Interact with SPFx client-side web parts in modern sites](https://docs.microsoft.com/learn/modules/sharepoint-spfx-get-started/7-exercise-client-side-web-parts)
 
-    In this exercise, you'll add and interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
+   In this exercise, you'll add and interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
 
 ## Demos
 
@@ -32,7 +32,7 @@ This module has been recorded and is available in the SharePoint Development You
 
 ## Contributors
 
-|        Roles         |                                                   Author(s)                                                    |
+| Roles                | Author(s)                                                                                                      |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Lab Manuals / Slides | Andrew Connell (Microsoft MVP, [Voitanos](//github.com/voitanos)) [@andrewconnell](//github.com/andrewconnell) |
 | QA                   | Rob Windsor (Microsoft MVP, PAIT Group) [@rob-windsor](//github.com/rob-windsor)                               |
@@ -40,8 +40,9 @@ This module has been recorded and is available in the SharePoint Development You
 
 ## Version history
 
-| Version |        Date        |                      Comments                      |
+| Version | Date               | Comments                                           |
 | ------- | ------------------ | -------------------------------------------------- |
+| 1.9     | November 30, 2020  | FY2021Q1 content refresh                           |
 | 1.8     | August 31, 2020    | FY2021Q1 content refresh                           |
 | 1.7     | March 10, 2020     | FY2020Q3 content refresh & port module to MS Learn |
 | 1.6     | December 6, 2019   | FY2020Q2 content refresh                           |

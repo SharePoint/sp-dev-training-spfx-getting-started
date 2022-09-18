@@ -4,7 +4,7 @@ This completed project is the result of the lab exercise **Configure your ShareP
 
 ## Prerequisites
 
-- [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- [Microsoft 365 tenant](https://developer.microsoft.com/en-us/microsoft-365/dev-program?ocid=MSlearn)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Instructions

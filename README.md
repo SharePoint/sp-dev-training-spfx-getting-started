@@ -35,13 +35,14 @@ This module has been recorded and is available in the SharePoint Development You
 | Roles                | Author(s)                                                                                                      |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Lab Manuals / Slides | Andrew Connell (Microsoft MVP, [Voitanos](//github.com/voitanos)) [@andrewconnell](//github.com/andrewconnell) |
-| QA                   | Rob Windsor (Microsoft MVP, PAIT Group) [@rob-windsor](//github.com/rob-windsor)                               |
+| QA                   | Rob Windsor (Microsoft MVP) [@rob-windsor](//github.com/rob-windsor)                               |
 | Sponsor / Support    | Vesa Juvonen (Microsoft) [@VesaJuvonen](//github.com/VesaJuvonen)                                              |
 
 ## Version history
 
 | Version |        Date        |                      Comments                      |
 | ------- | ------------------ | -------------------------------------------------- |
+| 1.17    | December 5, 2022   | FY2023Q1 content refresh                           |
 | 1.16    | September 5, 2022  | FY2023Q1 content refresh; update for SPFx v1.15.2  |
 | 1.15    | May 2, 2022        | FY2022Q4 content refresh; update for SPFx v1.14    |
 | 1.14    | March 7, 2022      | FY2022Q3 content refresh                           |

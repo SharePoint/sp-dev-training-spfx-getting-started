@@ -118,7 +118,7 @@ module.exports = {
         //
         // STANDARDIZED BY:   @typescript-eslint\eslint-plugin\dist\configs\recommended.json
         // Set to 1 (warning) or 2 (error) to enable the rule
-        '@typescript-eslint/no-parameter-properties': 0,
+        '@typescript-eslint/parameter-properties': 0,
         // RATIONALE:         When left in shipping code, unused variables often indicate a mistake.  Dead code
         //                    may impact performance.
         //
@@ -346,33 +346,7 @@ module.exports = {
         '**/test/*.ts',
         '**/test/*.tsx'
       ],
-      rules: {
-        'no-new': 0,
-        'class-name': 0,
-        'export-name': 0,
-        forin: 0,
-        'label-position': 0,
-        'member-access': 2,
-        'no-arg': 0,
-        'no-console': 0,
-        'no-construct': 0,
-        'no-duplicate-variable': 2,
-        'no-eval': 0,
-        'no-function-expression': 2,
-        'no-internal-module': 2,
-        'no-shadowed-variable': 2,
-        'no-switch-case-fall-through': 2,
-        'no-unnecessary-semicolons': 2,
-        'no-unused-expression': 2,
-        'no-with-statement': 2,
-        semicolon: 2,
-        'trailing-comma': 0,
-        typedef: 0,
-        'typedef-whitespace': 0,
-        'use-named-parameter': 2,
-        'variable-name': 0,
-        whitespace: 0
-      }
+      rules: {}
     }
   ]
 };

@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Hosted workbench",
-      "type": "edge",
+      "type": "msedge",
       "request": "launch",
       "url": "https://{tenantDomain}/_layouts/workbench.aspx",
       "webRoot": "${workspaceRoot}",
